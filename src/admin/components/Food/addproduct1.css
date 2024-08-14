@@ -1,0 +1,420 @@
+.board_box_container01 {
+  padding: 2rem;
+  width: 84%;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 15%;
+  position: relative;
+}
+
+.title_header_orderBox1 {
+  text-align: center;
+  margin-top: 5.2rem;
+}
+
+.box_container_product2 {
+  display: grid;
+  width: 100%;
+  margin: 1.5rem auto 4rem auto;
+  padding: 25px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(202, 17, 17, 0.2);
+}
+.box_container_product2 h3 {
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.filter22 {
+  position: relative;
+  left: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center; /* Center vertically */
+}
+
+.filter22 h3 {
+  display: flex;
+  font-size: 25px;
+  margin: 5px 10px;
+  align-items: center;
+}
+
+.filter22 div {
+  display: flex;
+  width: 13px;
+  height: 35px;
+  background-color: #0e64d2;
+  border-radius: 3px;
+}
+
+.box-addpro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.box-add {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60dvh;
+  background-color: #923434;
+}
+.icon-container {
+  width: 20%;
+  height: 10%;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 50%;
+  height: auto;
+}
+
+/*  */
+
+/* input text */
+.boxcontainerSpan_Box {
+  width: 20%;
+}
+
+.group_container_product {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box_text_post h2 {
+  padding: 20px 0;
+}
+
+.deleteBox_productconotent {
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 7px;
+  cursor: pointer;
+  position: absolute;
+ 
+}
+.box_input-img-add input {
+  display: none;
+}
+.box_input-img-add img {
+  position: relative;
+  max-width: 100%; /* Set the maximum width */
+  max-height: 100%; /* Set the maximum height */
+}
+
+.addProduct_box_content_afterThat {
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background: #ffffff;
+}
+/* General styles for the container */
+/* Container for the entire form section */
+/* Container for the entire form section */
+/* Container for the entire form section */
+.box_container_image {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  height: 100%; /* Ensures the container takes full height */
+}
+
+/* Styling for the input box container */
+.input-box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between each box */
+  width: 100%; /* Adjust width as needed */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for each box containing input/select elements */
+.box {
+  position: relative;
+}
+
+/* General input styles */
+.box input[type="text"],
+.box select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Specific styles for the select dropdown */
+.select-text {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzMzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMCAxMCI+PHBhdGggZD0iTSA1IDcgTCAwIDIgTCAwIDAgTCAxMCAwIEwgMTAgMiBMIDUgNyB6Ij48L3BhdGg+PC9zdmc+")
+    no-repeat right 12px center;
+  background-color: #fff;
+  background-size: 12px;
+  cursor: pointer;
+}
+
+/* Input focus states */
+.box input[type="text"]:focus,
+.box select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling for option elements within the select */
+.select-text option {
+  padding: 10px;
+  background: #fff;
+  color: #333;
+}
+
+/* Placeholder color for inputs */
+/* .box input[type="text"]::placeholder,
+.box select {
+  color: #999;
+} */
+
+/* Hover state for inputs and select */
+.box input[type="text"]:hover,
+.box select:hover {
+  border-color: #888;
+}
+
+/* Styling for the container with a subtle background and shadow */
+.box_container_image {
+  padding: 10px;
+}
+
+/*  */
+.addProduct_box_content_afterThat img {
+  cursor: pointer;
+}
+
+.image {
+  width: 60%;
+  display: grid;
+  height: 30vh;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  align-items: center;
+  overflow: hidden;
+  color: #af6363;
+}
+
+.edit_images {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 4px 4px 0 4px;
+  font-size: 25px;
+  margin: 3px;
+}
+.trigger_popup_fricc {
+  cursor: pointer;
+  position: relative;
+}
+#icon_ci_camera {
+  position: relative;
+  color: #f46738;
+}
+
+/* Submit button */
+
+.btn_submit_add2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+.btn_submit_add2 .button22{
+    background-color: #0e64d2; /* Blue background color */
+    color: white;              /* White text color */
+    border: none;              /* Remove button border */
+    padding: 10px 50px;       /* Padding inside the button */
+    border-radius: 5px;       /* Rounded corners */
+    font-size: 16px;          /* Font size */
+    cursor: pointer;          /* Show pointer cursor on hover */
+
+}
+.button22:hover {
+  background-color: #084c90; /* Darker blue background color on hover */
+}
+
+/* icon edit */
+.txt_boxDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 17px;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+}
+.product-name {
+  margin: 0;
+  font-size: 16px;
+  flex: 1;
+  font-weight: bold;
+}
+.product-price {
+  margin: 0;
+  font-size: 16px;
+  flex: 1;
+}
+.edit-icon1,
+.edit-icon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 20%;
+  background-color: #848f95;
+  margin-left: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.edit-icon1:hover,
+.edit-icon2:hover {
+  color: #14ac3a; /* Change color on hover */
+}
+/*========= post_add_product ============*/
+
+.post_add_product {
+  width: 20%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column; /* Adjusted to make sure the elements stack vertically */
+  gap: 1rem;
+}
+
+.iconimage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+}
+#icon_shoppingbag {
+  width: 80px;
+  height: 80px;
+  color: #3076f0;
+  padding: 10px 15px;
+  border: solid 1px #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#icon_goplus {
+  width: 20px;
+  height: 20px;
+  margin-top: 2.5rem;
+  margin-left: -1.8rem;
+  border: solid 1px #ccc;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  color: #3076f0;
+  cursor: pointer;
+}
+
+.box_input-img-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  width: 37vh;
+  height: 37vh;
+  overflow: hidden;
+}
+
+.box_input-img-add img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box_input-img-add input {
+  display: none;
+}
+
+/* =========== onClick icon edit ===============*/
+
+.box_input_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 45vh;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box_input_image input {
+  display: none;
+}
+.box_input_image img {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 180px;
+  padding: 16px 0;
+  margin-top: 10px;
+}
+
+.btn_cancel {
+  background-color: #f2f3f7;
+  color: #000;
+  font-size: 18px;
+}
+
+.btn_confirm {
+  background-color: #347fff;
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn_cancel:hover {
+  background-color: #e7e8ee;
+}
+
+.btn_confirm:hover {
+  background-color: #3076f0;
+}

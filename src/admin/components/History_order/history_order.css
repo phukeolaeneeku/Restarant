@@ -1,0 +1,70 @@
+.history_box_container {
+  padding: 2rem;
+  width: 84%;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 15%;
+  position: relative;
+}
+.title_header_orderBox22{
+  margin-top: 5rem;
+}
+.history_container_box {
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5rem;
+  margin-top: 25px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.btnView {
+  border: 1px solid #0e64d2;
+  background-color: #ffffff;
+  color: #0e64d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.txttitle_manageorder {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.icon_check {
+  right: 5px;
+  height: 2vh;
+  position: relative;
+  color: #00e096;
+  display: auto;
+  justify-content: center;
+  align-items: center;
+}
+/* */
+.history-visit {
+  margin: -50px;
+}
+.history-visit .history .item_guopBox {
+  display: grid;
+  gap: 1.5rem;
+}
+/* Products */
+.history-visit .history .items-his {
+  display: grid;
+  grid-template-columns: 0.5fr 0.7fr 0.8fr 0.5fr 1fr 1fr 0.5fr;
+  border-bottom: 2px solid #eee; /* Add bottom border */
+}
+.history-visit .history .items-his h4 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.history-visit .history .items-his span {
+  text-align: start;
+  color: #000000;
+}

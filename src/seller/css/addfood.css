@@ -1,0 +1,105 @@
+.boxAdd_food_btn img {
+    width: 20%;
+}
+
+.box_addfood_containerr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_secoundfof{
+    padding: 10px;
+}
+
+.icon_editFood_each {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.asdasd {
+    background-color: #0E64D2;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.icon_AddfoodBtn {
+    font-size: 20px;
+}
+
+.box_iamgeFood {
+    width: 150px;
+    position: relative;
+}
+
+.box_iamgeFood img {
+    width: 100%;
+}
+
+.div_ofBoxCamera {
+    top: 2px;
+    right: 2px;
+    position: absolute;
+    padding: 4px;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.iconEdit_store {
+    cursor: pointer;
+}
+
+.icon_cameraDp {
+    color: #868F98;
+    font-size: 20px;
+}
+
+.manage_btnEditStore_delete_btnIcon {
+    background-color: #FF4F16;
+    top: 3px;
+    left: 3px;
+    position: absolute;
+    padding: 4px;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.icondelete_store {
+    font-size: 19px;
+}
+
+.popup_Border_Boximagae {
+    border: #868F98 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.txt_boxDescriptionAddfood {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn_saveFooditem{
+    position: fixed;
+    background-color: #0E64D2;
+    color: #fff;
+    width: 480px;
+    text-align: center;
+    padding: 15px 30px;
+    bottom: 1rem;
+    border-radius: 30px;
+}

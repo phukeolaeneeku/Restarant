@@ -1,0 +1,171 @@
+.orderhitory_box_container {
+    width: 45%;
+    margin: 6rem auto auto auto;
+    background-color: #fff;
+  }
+  .back_orderBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title_header_orderBox h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .firstorder_content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .firstorder_content h4 {
+    padding-bottom: 10px;
+  }
+  
+  .icon_status-orderhistory {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #d9d9d9;
+  }
+  
+  .boxstatus_orderhistory {
+    z-index: 1;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .boxstatus_orderhistory h4 {
+    padding-top: 10px;
+    position: absolute;
+  }
+  .ssdasdsa {
+    margin-top: 15px;
+    text-align: start;
+  }
+  .orderhistory_status {
+    display: grid;
+    gap: 2rem;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #ddd;
+  }
+  .textorder {
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .numberIdorder {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icons_active {
+    background-color: #55c639;
+  }
+  
+  .spanboxinline-1 {
+    margin: auto !important;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    height: 1.5vh;
+    width: 50%;
+    background-color: #55c639;
+    z-index: -1;
+  }
+  
+  .spanboxinline-2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    height: 1.5vh;
+    width: 50%;
+    background-color: #55c639;
+    z-index: -1;
+  }
+  
+  .order_content-detailorder {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  .order_content-detailorder h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .order_content-Item {
+    justify-content: center;
+    display: grid;
+    padding: 2cqh 30px;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .order_content-Item h4 {
+    font-size: 15px;
+  }
+  
+  .box-Grouptxtintro,
+  .box-groupLastfoot {
+    margin-top: 20px;
+    display: grid;
+    gap: 15px;
+  }
+  .box-ofnamefood {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .box-ofpricefood {
+    width: 100%;
+    overflow: hidden;
+  }
+  .box-ofamountfood {
+    justify-content: start;
+    width: 100%;
+    overflow: hidden;
+  }
+  .box-amount h4 {
+    display: flex;
+  }
+  
+  .box-groupLastfoot {
+    padding-left: 20px;
+  }
+  
+  .taeraerthui {
+    padding: 1rem;
+  }
+  
+  .box-groupPrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 1rem 10px 1rem;
+  }
+  .box-groupPrice h4 {
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .box-image-slip{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  

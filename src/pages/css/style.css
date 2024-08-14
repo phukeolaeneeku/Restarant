@@ -1,0 +1,44 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .barContainer {
+    flex: 1;
+    height: 8px;
+    background: #dfdfe7;
+    border-radius: 12px;
+  }
+  
+  .filler {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #75c275 60.72%, #e26c5a 100%);
+  }
+  
+  .textValue {
+    margin-left: 8px;
+    width: 42px;
+    text-align: right;
+  }
+  
+  /* Revert filling */
+  
+  .barContainer2 {
+    flex: 1;
+    height: 12px;
+    background: linear-gradient(90deg, #75c275 60.72%, #e26c5a 100%);
+  }
+  
+  .filler2 {
+    height: 100%;
+    margin-left: auto;
+    border-radius: inherit;
+    background: #dfdfe7;
+  }
+  

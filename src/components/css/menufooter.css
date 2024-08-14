@@ -1,0 +1,142 @@
+.menufooter_contentHeader {
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  position: relative; 
+  justify-content: center;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  z-index: 999; 
+  background-color: #fff;
+  position: fixed; */ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #FFF;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.box_content_header {
+  width: 80%;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.menu_header_box,
+.boxcart_header_container,
+.boxcart_header {
+  display: flex;
+  align-items: center;
+}
+
+.menu_header_box {
+  gap: 3rem;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: right;
+  margin-left: 40%;
+}
+
+.active {
+  color: #0e64d2;
+}
+
+.boxcart_header_container {
+  gap: 1rem;
+}
+
+.box_border_haeaderCart {
+  border: 1px solid #282b30;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxcart_header .boxfirstbg {
+  background-color: #0e64d2;
+  color: #fff;
+}
+
+.box_border_haeaderMain {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxcart_header .boxmainpage {
+  color: #000000;
+}
+
+.icon_cart_header {
+  font-size: 25px;
+}
+
+.linkTomenu {
+  font-size: 19px;
+}
+#FaRegUser{
+  color: #000;
+  font-size: 17px;
+}
+#FaRegUser:hover{
+  color: #0e64d2;
+}
+
+.menufooter_content_app {
+  display: none;
+}
+
+@media screen and (max-width: 431px) {
+  .menufooter_contentHeader {
+    display: none;
+  }
+
+  .menufooter_content_app {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    z-index: 999;
+  }
+
+  .link_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+
+  .link_menu:hover {
+    color: #0e64d2;
+  }
+
+  .active {
+    color: #0e64d2;
+  }
+
+  .iconMenu_foot {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,260 @@
+.contain-order {
+  margin-left: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  height: auto;
+  min-height: 400px;
+}
+
+.box-detail-order {
+  padding: 20px 30px;
+  /* Increased padding for better spacing */
+  background-color: #f9f9f9;
+  /* Softer background color */
+  border-radius: 15px;
+  /* Slightly more rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* Enhanced shadow for a more pronounced effect */
+  transition: all 0.3s ease;
+  /* Smooth transition for interactive elements */
+}
+
+.box-detail-order:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  /* Slightly increased shadow on hover */
+}
+
+.box-d-order {
+  display: flex;
+  flex-direction: column;
+  /* Adjusted to column for better alignment */
+  gap: 10px;
+  /* Space between elements */
+}
+
+.box-d-order h3 {
+  font-size: 1.2em;
+  /* Slightly increased font size */
+  color: #444;
+  /* Softer text color */
+  margin-bottom: 10px;
+  /* Space below the heading */
+}
+
+.box-detail-order ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-detail-order li {
+  padding: 15px 0;
+  /* Increased padding for better spacing */
+  border-bottom: 1px solid #eee;
+  /* Lighter border color */
+  transition: background-color 0.3s ease;
+  /* Smooth background color transition */
+}
+
+.box-detail-order li:last-child {
+  border-bottom: none;
+  /* Remove border from the last item */
+}
+
+/*  */
+
+.box-txt-dtorder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.box-textorder {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-textorder p {
+  margin: 0;
+  padding: 2px 0;
+}
+
+.box-txt-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  /* Adjust the width as needed */
+}
+
+.box-txt-quantity p {
+  margin: 0;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 1.2em;
+  /* Adjust the font size as needed */
+}
+
+.count_menu_box_content {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-groupQuantity {
+  display: flex;
+  align-items: center;
+}
+
+.box-groupPrice2 {
+  display: flex;
+  align-items: center;
+}
+
+.box-groupQuantity h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.text-quantity {
+  font-weight: bold;
+  font-size: 20px;
+  color: #3128a7;
+}
+
+.box-groupPrice2 h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.text-dollar2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #28a745;
+}
+
+.button-checkout {
+  margin-top: 25px;
+  display: flex;
+}
+
+.btn-checkout {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  /* Green background color */
+  color: white;
+  /* White text color */
+  font-size: 16px;
+  /* Font size */
+  font-weight: bold;
+  /* Bold text */
+  text-align: center;
+  /* Center the text */
+  border-radius: 5px;
+  /* Rounded corners */
+  border: none;
+  /* No border */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Smooth transition for hover effect */
+  margin: 0 auto;
+  /* Center horizontally */
+}
+
+.btn-checkout:hover {
+  background-color: #218838;
+  /* Darker green on hover */
+  transform: scale(1.05);
+  /* Slightly enlarge on hover */
+}
+
+.btn-checkout:active {
+  background-color: #1e7e34;
+  /* Even darker green on active */
+  transform: scale(1);
+  /* Reset transform on active */
+}
+
+.btn-checkout:focus {
+  outline: none;
+  /* Remove default focus outline */
+  box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.5);
+  /* Add custom focus outline */
+}
+
+/*  */
+.right_oflastDetailsFood22 {
+  margin: 0 20px;
+  position: relative;
+}
+
+.icon_DetailsFood22,
+.boxCount_numfood {
+  display: flex;
+  align-items: center;
+}
+
+.icon_DetailsFood22 {
+  border-radius: 5px;
+  color: #000000;
+
+  font-size: 19px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.icon_DetailsFood22:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  background-color: #c40e0e;
+}
+
+
+.addIconCount22,
+.deleteIconCount22 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center horizontally */
+}
+
+
+.btn_payment_forOrder {
+  bottom: 10px;
+  background-color: #3498DB;
+  border: none;
+  color: #FFF;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn_status_orderitem {
+  background-color: #3498DB;
+  border: none;
+  color: #FFF;
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_status_orderitem:hover {
+  background-color: #2e8fcf;
+}
+
+/* test */

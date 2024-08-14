@@ -1,0 +1,233 @@
+/* Container */
+.container_body_employee {
+  padding: 2rem;
+  width: 84%;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 15%;
+  position: relative;
+}
+
+/* User Box */
+.container_box_employee {
+  width: 100%;
+  margin: 5rem auto 4rem auto;
+  padding: 25px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(202, 17, 17, 0.2);
+}
+/*  */
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* User Box */
+.box_users {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+
+  padding: 10px;
+}
+
+.box_users h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+/* Add Admin Button */
+.box_add_admin {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.btn_addadmin {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn_addadmin:hover {
+  background-color: #0056b3;
+}
+
+#icon_add_admin {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+/*  */
+/* No Reviews Message */
+.no-reviews-message {
+  text-align: center;
+  color: #888;
+  font-size: 1.2em;
+}
+
+/* User Details */
+.box_users_user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  transition: box-shadow 0.3s;
+  margin: 10px 0;
+}
+
+.box_users_user:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.box_dp_txtandiamge {
+  display: flex;
+  align-items: center;
+}
+
+.box_user_img img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.box_user_text p {
+  margin: 0;
+  color: #333;
+}
+
+.box_user_text p:first-child {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.btn_box_Cont {
+  display: flex;
+  gap: 10px;
+}
+
+.delete_storeDetails,
+.viewMore_storeDetails {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete_storeDetails:hover {
+  background-color: #c82333;
+}
+
+.viewMore_storeDetails {
+  background-color: #28a745;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewMore_storeDetails:hover {
+  background-color: #218838;
+}
+
+
+
+/* ============ popup delete ===========*/
+.background_addproductpopup_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000036;
+  z-index: 999;
+}
+
+.hover_addproductpopup_box {
+  width: 30%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box_logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 15vh;
+  background-color: #FFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box_logout p{
+  font-size: 18px;
+}
+
+.btn_cancel {
+  background-color: #F2F3F7;
+  color: #000;
+  font-size: 18px;
+}
+
+.btn_confirm {
+  background-color: #347FFF;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.btn_cancel:hover {
+  background-color: #e7e8ee;
+}
+
+.btn_confirm:hover {
+  background-color: #3076f0;
+}
+
+.btn_addproducttxt_popup {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 20px;
+
+}
+
+.input_of_txtAddproduct {
+  width: 80%;
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid #DDDCE1;
+}
+
+.btn_foasdf {
+  display: flex;
+}
+
+

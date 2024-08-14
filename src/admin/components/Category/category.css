@@ -1,0 +1,105 @@
+.board_category {
+  padding: 2rem;
+  width: 84%;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 15%;
+  position: relative;
+}
+.container_category {
+  width: 100%;
+  margin: 5rem auto 4rem auto;
+  padding: 25px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(202, 17, 17, 0.2);
+}
+/* Style for the container */
+.box-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the heading */
+.box-category h2 {
+  font-size: 24px; /* Larger font size */
+  color: #333; /* Dark text color */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Style for the button */
+.add_table_btn {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.add_table_btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Category box styling */
+.category-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual category item styling */
+  .category-item {
+    background-color: #ddd9d9;
+    border-radius: 8px;
+  
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Category name styling */
+  .category-item p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Category actions styling */
+  .category-actions {
+    margin-top: 15px;
+  }
+  
+  /* Edit and Delete button styling */
+  .btn-edit-cat,
+  .btn-delete-cat {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-edit-cat {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .btn-delete-cat {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  /* Button hover effect */
+  .btn-edit-cat:hover {
+    background-color: #357934;
+  }
+  .btn-delete-cat:hover{
+    background-color: #793438;
+  }
+  /*  */
+  

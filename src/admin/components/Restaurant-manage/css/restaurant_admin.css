@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box_container_hotel {
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    padding: 100px 40px 20px 265px;
+}
+
+.box_content_hotel {
+    width: 100%;
+    min-height: 80vh;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 20px 20px 30px 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.productHead_content {
+    margin: 5px auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_add_product {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-right: 2rem;
+    color: #FFFFFF;
+    background-color: #15c65c;
+}
+
+#icon_add_product {
+    width: 25px;
+    height: 25px;
+}
+
+
+.tourHead_content {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.htxthead,
+.categoryBoxfiler {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* ========== box_container ==========*/
+.box_container_tour {
+
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.box_container_tour_admin {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 2rem;
+    border: solid 1px #eee;
+    border-radius: 13px;
+    padding: 15px 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.box_container_tour_admin:hover {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.container_image_tour {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+
+.container_image_tour img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container_image_tour:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.container_desc_tour {
+    width: 100%;
+}
+
+.container_desc_tour p {
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.price_number_ones {
+    font-size: 16px;
+}
+
+.txt_brand_car {
+    font-size: 16px;
+}
+
+.txt_address {
+    font-size: 16px;
+}
+
+#icon_map {
+    font-size: 1.3rem;
+    color: #3d76fb;
+}
+
+
+.btn_delete_view {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.box_btn_saveDelete {
+    background-color: #fa1f1fd7;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.box_btn_saveEdit {
+    background-color: #3d76fb;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*========= read more text p ===========*/
+.btn_read_more {
+    padding: 3px 5px;
+    border: solid 1px #0E64D2;
+    border-radius: 3px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.btn_read_more:hover {
+    border: solid 1px #fa1f1fd7;
+}
+
+/*  */
+
+.box_container_next_product {
+    display: flex;
+    gap: 1rem;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+    bottom: 0;
+}
+
+.box_prev_left_product {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    gap: 0.3rem;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    background: #FA442C;
+}
+
+.box_prev_right_product {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    gap: 0.3rem;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    background: #27A7EF;
+}
+
+.box_num_product {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.num_admin_product {
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444;
+}
+
+.btn_box_Cont {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.viewMore_storeDetails {
+    cursor: pointer;
+    color: #fff;
+    border-radius: 7px;
+    padding: 10px 30px;
+    border: none;
+    background: #347effda;
+    box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.15);
+}
+
+.delete_storeDetails {
+    cursor: pointer;
+    color: #fff;
+    border-radius: 7px;
+    padding: 10px 30px;
+    border: none;
+    background: #fa442cd8;
+    box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.15);
+}

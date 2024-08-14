@@ -1,0 +1,136 @@
+.board-table {
+  padding: 2rem;
+  width: 84%;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 15%;
+  position: relative;
+}
+.container_box_table {
+  width: 100%;
+  margin: 5rem auto 4rem auto;
+  padding: 25px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(202, 17, 17, 0.2);
+}
+
+/*  */
+.container_box_table h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container-table-dash {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows the content to wrap */
+}
+
+.box-table-dash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 200px;
+  text-align: center;
+  /* cursor: pointer; */
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.box-table-dash:hover {
+  transform: scale(1.05);
+  background-color: #a9c4f5;
+  box-shadow: 0 8px 16px rgba(1, 63, 138, 0.2);
+}
+
+.box-img-table-dash {
+  text-align: center;
+}
+
+.box-img-table-dash img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.box-img-table-dash h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0 0;
+  transition: color 0.3s ease;
+}
+.box-table-dash:hover h3 {
+  color: #ffffff;
+}
+.deleteBox_productcontent22 {
+  z-index: 999;
+  background-color: red;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  cursor: pointer;
+  position: absolute;
+}
+.deleteBox_productcontent22:hover {
+  background-color: #b71c1c;
+  transform: scale(1.1);
+}
+/* table.css */
+.box-add-table {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add_table_btn {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add_table_btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.add_table_btn p {
+  margin: 0;
+}
+
+.box-add-table {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 992px) {
+  .box-table-dash {
+    flex: 1 1 calc(50% - 20px); /* Two columns for medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .box-table-dash {
+    flex: 1 1 100%; /* Single column for small screens */
+  }
+}

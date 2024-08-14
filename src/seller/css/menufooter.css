@@ -1,0 +1,35 @@
+.menufooter_container_box_seller {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.link_menu_seller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #000; 
+}
+
+.link_menu_seller:hover{
+    color: #0E64D2;
+}
+ 
+.active_seller{
+    color: #0E64D2;
+}
+
+.iconMenu_foot_seller{
+    font-size: 20px;
+}

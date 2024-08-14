@@ -1,0 +1,31 @@
+/* orderDetail.css */
+
+.container-order-detail {
+    padding: 20px;
+  }
+  
+  .contain-order-detail {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order-item h3 {
+    margin: 0;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+  }
+  

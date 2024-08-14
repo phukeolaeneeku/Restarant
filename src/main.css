@@ -1,0 +1,51 @@
+.fixedElement {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: 2vw;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #115c9a9e;
+    border-radius: 10px 10px 0 0;
+    z-index: 999;
+
+  }
+  .scroll-to-top {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .scroll-to-top button {
+    position: relative;
+    background-color: #115c9a9e;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-to-top button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  @media screen and (max-width: 431px) {
+    .fixedElement {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 0;
+      margin-left: 0vw;
+      padding: 1rem 2rem 1rem 2rem;
+      background-color: #115c9a9e;
+   
+      z-index: 999;
+    }
+  }
+  

@@ -1,0 +1,243 @@
+.order_box_container333 {
+    width: 45%; /* Adjust width as needed */
+    margin: auto;
+    padding: 20px 0;
+    margin-top: 5rem;
+  }
+  
+  .back_orderBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title_header_orderBox h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .box_firstOrder_content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 2rem;
+  
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box_firstOrder_content h4 {
+    padding-bottom: 10px;
+  }
+  
+  .icon_status {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #d9d9d9;
+  }
+  
+  .boxOrder_status {
+    display: grid;
+    gap: 3rem;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .numberIdFoodorder {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .ofitxtactive {
+    background-color: #55c639;
+  }
+  
+  .spanBoxInline {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    height: 1.5vh;
+    width: 50%;
+    background-color: #55c639;
+    z-index: -1;
+  }
+  
+  .spanBoxInline2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    height: 1.5vh;
+    width: 50%;
+    background-color: #d9d9d9;
+    z-index: -1;
+  }
+  
+  .boxstatus_foodorder {
+    z-index: 1;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order_content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 1rem;
+  
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order_contentItem {
+    justify-content: center;
+    display: grid;
+    padding: 2cqh 30px;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .boxGrouptxtintro,
+  .boxgroupLastfoot {
+    margin-top: 20px;
+    display: grid;
+    gap: 15px;
+  }
+  .boxofnamefood {
+    width: 100%;
+    overflow: hidden;
+  }
+  .boxgroupLastfoot {
+    padding-left: 20px;
+  }
+  
+  .taeraerthui {
+    padding: 1rem;
+  }
+  
+  .box_groupPrice_2 {
+    padding: 20px 2rem 10px 2rem;
+    display: grid;
+    grid-template-columns: 1fr 0fr 0fr;
+    gap: 0.3rem;
+  }
+  .box_groupPrice_2 h4{
+    font-size: 20px;
+  }
+  .ssdasdsa-1 {
+    text-align: start;
+  }
+  /* **************** Order List ******************** */
+  .orderList_container_box {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 2rem;
+  }
+  
+  .box_content_orderlist {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .box_txt_orderlist {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .txtname_orderlist {
+    font-size: 18px;
+  }
+  
+  .txtDate_orderlist {
+    font-size: 13px;
+  }
+  
+  .btnViewMoew_order {
+    background-color: #0e64d2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  
+  .txttitle_orderlsit {
+    text-align: center;
+  }
+  
+  .box_item_orderlist {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  @media screen and (max-width: 431px) {
+    .order_box_container {
+      width: 100%;
+      margin: 0;
+      overflow: hidden;
+      padding: 10px;
+    }
+    .box_firstOrder_content {
+      padding: 20px;
+      width: 100%;
+      overflow: hidden;
+      margin-top: 2rem;
+    }
+    .boxstatus_foodorder {
+      width: 100%;
+    }
+    .order_content {
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 5rem;
+    }
+    .order_contentItem {
+      display: flex;
+      padding: 20px 30px;
+      gap: 1rem;
+      justify-content: space-between;
+      text-align: center;
+    }
+   .boxGrouptxtintro{ 
+    font-size: 15px;
+   }
+    .boxofnamefood {
+      width: 100%;
+      overflow: hidden; 
+      text-align: start;
+    }
+    /* **************** Order List ******************** */
+    .orderList_container_box {
+      width: 100%;
+      padding: 20px;
+      margin-top: 1rem;
+    }
+  
+    .box_content_orderlist {
+      margin-top: 2rem;
+      display: grid;
+      gap: 2rem;
+    }
+  
+    .box_item_orderlist {
+      padding: 20px 0;
+    }
+  }
+  

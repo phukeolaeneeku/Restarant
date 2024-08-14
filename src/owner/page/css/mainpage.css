@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container_boxHeaderAt_mainpage {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  gap: 3rem;
+  margin: 7rem auto auto auto;
+}
+.box_logo_main {
+ 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+.box_logo_main img {
+  border-radius: 100%;
+  margin-top: -30px;
+  height: 220px;
+  width: 220px;
+  margin-right: -20px;
+}
+.box_heardOfGrooup_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  left: -2rem;
+  position: relative;
+}
+
+.description_header-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.description_header-main h3 {
+  font-size: 25px;
+}
+
+.description_header-main p {
+  font-size: 18px;
+}
+
+.contact_head_Boxdetails-tel {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: -30px;
+}
+.contact_head_Boxdetails-tel p {
+  margin-left: -25px;
+}
+.contact_head_Boxdetails2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header_contact_details-main {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header_box_of_header-main {
+  position: relative;
+  display: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact_head_Boxdetails-map,
+.header_contact_details-map {
+  left: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+/* Button review and map */
+.switch_btn1 {
+  background-color: #0e64d2;
+  color: #fff;
+  padding: 6px 30px;
+  border-radius: 7px;
+  margin-right: -72rem;
+}
+.switch_btn2 {
+  position: relative;
+  display: flex;
+  background-color: #0e64d2;
+  color: #fff;
+  padding: 6px 30px;
+  border-radius: 7px;
+  top: 2.5rem;
+  left: 2rem;
+}
+/* icon */
+.iconstar_review {
+  font-size: 22px;
+  color: #d9d9d9;
+}
+
+.adtiveStar {
+  color: gold;
+}
+
+.iconnDetails_head {
+  color: #444;
+  font-size: 23px;
+}
+
+.iconn_qrcode {
+  font-size: 30px;
+}
+/* icon map */
+.iconnDetails_head-map {
+  display: flex;
+  left: -2rem;
+  position: absolute;
+  color: #444;
+  font-size: 23px;
+}
+/* icon edit logo */
+.iconnChangeImagelogo {
+  top: 2.5rem;
+  right: 3.5rem;
+  position: relative;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+}
+
+/* icon edit name and description */
+.iconnChangeImageEditname {
+  bottom: 5rem;
+  position: relative;
+  left: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px; /* Adjust icon width */
+  height: 20px;
+  font-size: 15px;
+  border-radius: 20%;
+  background-color: #848f95;
+  color: #ffffff;
+  cursor: pointer;
+}
+.iconnChangeImageEditname:hover {
+  color: #fc3939;
+}
+/* icon edit time */
+.iconEdit_time {
+  margin-right: -6.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px; /* Adjust icon width */
+  height: 20px;
+  font-size: 15px;
+  border-radius: 20%;
+  background-color: #848f95;
+  color: #ffffff;
+  cursor: pointer;
+}
+.iconEdit_time:hover {
+  color: #fc3939; /* Change color on hover */
+}
+/* icon edit map */
+.iconEdit_map {
+  position: absolute;
+  right: -1.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px; /* Adjust icon width */
+  height: 20px;
+  font-size: 15px;
+  border-radius: 20%;
+  background-color: #848f95;
+  color: #ffffff;
+  cursor: pointer;
+}
+.iconEdit_map:hover {
+  color: #fc3939; /* Change color on hover */
+}
+
+/* Box banner */
+.box_banner_content2 {
+  margin-top: -15px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: auto;
+}
+
+.box_banner_content2 img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+/* icon edit image banner */
+.camera-icon {
+  display: flex;
+  position: absolute;
+  bottom: 70px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 50%; /* Circular shape */
+  cursor: pointer;
+}
+
+.camera-icon:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Darken on hover */
+}
+
+.camera-icon svg {
+  color: #555; /* Icon color */
+}
+
+/* Category */
+.container_boxcategory-main {
+  margin: 0;
+  max-width: 60%;
+  min-width: 40%;
+  overflow: hidden;
+  padding: 18px 3rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 6rem;
+  justify-content: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: #0e64d2;
+}
+
+.link_categor_l {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease;
+  font-size: 17px;
+}
+
+.link_categor_l:hover {
+  color: #fff;
+}
+
+.activeCategory {
+  color: #fff;
+}
+
+.link_categor_l::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+}
+
+.link_categor_l::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.link_categor_l:hover::before {
+  width: 6%;
+}
+
+/* Popup */
+.popup1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content1 {
+  z-index: 999;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup-content1 h2 {
+  position: relative;
+  color: #000000;
+  text-align: start;
+  font-size: 18px;
+}
+/* Button for Popup */
+
+.btn-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cancel1 {
+  background-color: #e62a2a;
+  color: #fff;
+  padding: 10px 40px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn-ok1 {
+  background-color: #208a50;
+  color: #fff;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+/*  */
+.text-input-name1 {
+  border-radius: 15px;
+  position: fixed;
+  padding: 20px;
+  margin-left: -1rem;
+}
+/*  */
+.popup2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content2 {
+  background-color: rgb(248, 247, 247);
+  padding: 0px 2rem 30px 2rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.popup-content2 h2 {
+  position: relative;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.btn-popuptime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+/* TimeSelector.css */
+.time-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.to-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin-right: 10px;
+}
+/*  */
+.input-container2 {
+  position: relative;
+  display: inline-block;
+}
+
+.file-upload-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text-input-name2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.icon_cameraDp2 {
+  margin-right: 8px;
+}
+
+.file-upload-text {
+  font-size: 16px;
+}
+/* Button Popp2 */
+.btn-popup2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+/*  */
+.box-storename {
+  margin-bottom: 60px;
+}
+.box-storename h2 {
+  text-align: start;
+  margin-bottom: 5px;
+  margin-left: -25px;
+}
+
+.box-storedes h2 {
+  text-align: start;
+  margin-bottom: 5px;
+  margin-left: -25px;
+}
+
+/*  */
+/*  */
+
+/* =========== onClick icon edit ===============*/
+
+.box_input_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 45vh;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box_input_image input {
+  display: none;
+}
+.box_input_image img {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 180px;
+  padding: 16px 0;
+  margin-top: 10px;
+}
+
+.btn_cancel {
+  background-color: #f2f3f7;
+  color: #000;
+  font-size: 18px;
+}
+
+.btn_confirm {
+  background-color: #347fff;
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn_cancel:hover {
+  background-color: #e7e8ee;
+}
+
+.btn_confirm:hover {
+  background-color: #3076f0;
+}
+
+/* popup edit name and des */
+.background_popup_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000036;
+}
+.btn_cancel2 {
+  background-color: #CCCCCC;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  /* cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 15px; */
+
+}
+.btn_ok_alert {
+  background-color: #347FFF;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+}
+.hover_popup_box {
+  width: 30%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box_input-editname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 25vh;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box-store-name p {
+
+
+  font-size: 15px;
+}
+.box_input-editname input {
+  width: 80%;
+  height: 45px;
+  border-radius: 5px;
+}
+/* popup edit time */
+.background_popup_box-time {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000036;
+  
+}
+.hover_popup_box-time {
+  width: 25%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box_input-edittime {
+  align-items: center;
+  width: 100%;
+  height: 23vh;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.box_input-edittime h3{
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  display: auto;
+}
+.box-time {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 13vh;
+}
+.box-store-time p {
+  font-size: 15px;
+}
+.box-store-time input {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+}

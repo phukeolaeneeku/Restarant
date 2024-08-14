@@ -1,0 +1,251 @@
+.continer-payment {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0;
+  margin-top: 2rem;
+}
+.Box-header-payment {
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #0e64d2;
+}
+.Box-continer-payment {
+  padding: 6%;
+  border-radius: 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+.Box-continer-payment h4 {
+  color: #000000;
+
+  font-weight: lighter;
+}
+.text-detail h4 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.Box-continer-payment2 {
+  margin-top: 10px;
+  padding: 6%;
+  border-radius: 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+.count_continer-payment2 {
+  padding: 10px;
+  display: grid;
+  gap: 2rem;
+}
+.count_box_item_payment {
+  border-bottom: #ddd 1px solid;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-account {
+  padding: 10px;
+
+  display: grid;
+  gap: 2rem;
+}
+.text-account {
+  margin-top: 15px;
+  padding: 10px;
+  display: grid;
+  gap: 2rem;
+}
+.text_account_payment {
+  border-bottom: #ddd 1px solid;
+  padding-bottom: 5px;
+}
+.text_account_payment_all {
+  display: grid;
+  grid-template-columns: 1fr 4fr 0fr;
+}
+
+.text_account_payment2 {
+  font-size: 18px;
+  display: grid;
+  align-items: center; /* Center-align content vertically */
+}
+
+.img-icon {
+  max-width: 50%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Ensure proper spacing around the image */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+.icon_coppy {
+  font-size: 30px;
+  cursor: pointer;
+}
+.text-red {
+  color: crimson;
+}
+.Box-image {
+  height: 50vh;
+  border-radius: 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_input_img {
+  justify-content: center;
+  width: 260px;
+  height: 35vh;
+  overflow: hidden;
+}
+
+.box_input_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-image {
+  cursor: pointer;
+  text-align: center;
+  background-color: #0e64d2;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+.btn-image input {
+  display: none;
+}
+.button-con-pay {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_confirm_payment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e64d2;
+  color: #fff;
+  height: 6vh;
+  width: 25vh;
+  border-radius: 10px;
+  transition: 200ms;
+}
+/* Popup dialog */
+.background_popup_dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000036;
+  z-index: 9999;
+}
+.hover_popup_dialog {
+  width: 25%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box_input_dialog {
+  align-items: center;
+  width: 100%;
+  height: 23vh;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box_input_dialog h3 {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  display: auto;
+}
+
+.box_input_dialog {
+  text-align: center;
+}
+.box_input_dialog p {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 18px;
+}
+.hover_popup_dialog img {
+  margin-top: 10px;
+  width: 12vh;
+}
+@media screen and (max-width: 431px) {
+  .continer-payment {
+    width: 90%;
+  }
+
+  .Box-continer-payment,
+  .Box-continer-payment2 {
+    padding: 3%;
+  }
+  .button-con-pay {
+    margin-bottom: 5rem;
+  }
+  .text-detail h4 {
+    font-size: 16px;
+  }
+
+  .img-icon {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  /* Popup dialog */
+  .background_popup_dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000036;
+    z-index: 9999;
+  }
+  .hover_popup_dialog {
+    width: 85%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .box_input_dialog {
+    align-items: center;
+    width: 100%;
+    height: 23vh;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .box_input_dialog h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: auto;
+  }
+
+  .box_input_dialog {
+    text-align: center;
+  }
+  .box_input_dialog p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  .hover_popup_dialog img {
+    margin-top: 10px;
+    width: 12vh;
+  }
+}

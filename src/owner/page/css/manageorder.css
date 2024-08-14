@@ -1,0 +1,67 @@
+.manageorder_box_container {
+  width: 60%;
+  margin: 6rem auto auto auto;
+  background-color: #fff;
+}
+.txt-text-table{
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.txtname_orderlist22{
+  display: flex;
+  justify-content: space-between;
+}
+.manageorder_container_box {
+  margin: auto;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+.title_header_orderBox {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.box_content_manageorder {
+  margin-top: 0.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.box_txt_manageorder {
+  display: grid;
+  gap: 10px;
+}
+
+.txtname_manageorder {
+  font-size: 18px;
+}
+.txtDate_manageorder {
+  font-size: 14px;
+  color: #585656;
+}
+
+.btnViewMoew_order {
+  background-color: #0e64d2;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.txttitle_manageorder {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box_item_manageorder {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}

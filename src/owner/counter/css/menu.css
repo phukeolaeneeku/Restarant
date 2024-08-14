@@ -1,0 +1,269 @@
+.container-menu {
+  width: 95%;
+  height: auto;
+  margin: 6rem auto auto auto;
+  display: grid;
+  grid-template-columns: 2fr 1.1fr;
+  gap: 10px;
+}
+
+/* Container for the order details */
+.contain-order2 {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Order details section */
+.container-order-detail h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.container-order-detail p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Grid layout for order details */
+.box-txt-dtorder22 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Quantity controls container */
+.boxCount_numfood22 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+/* Add and delete icons container */
+.box_add_delete_orderitem {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+/* Icons for adding and deleting */
+.deleteIconCount22,
+.addIconCount22 {
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #cf0d0d;
+}
+
+/* Quantity counter */
+.countBtn_numberCount {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2rem; /* Adjust font size */
+  color: #333; /* Text color */
+  display: inline-block; /* Display as inline block */
+}
+
+/*  */
+/* Container for Delete Icon and Status Button */
+.right_oflastDetailsFood229 {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  align-items: end; /* Align items to the right */
+  gap: 0.5rem; /* Spacing between items */
+  position: relative; /* Positioning context for absolute children */
+}
+
+/* Delete Icon */
+.icon_DetailsFood229 {
+  position: relative; /* Position the icon absolutely within its container */
+  top: 0; /* Position at the top within the container */
+  right: 0; /* Position at the right within the container */
+}
+
+/* Delete Icon Style */
+.icon_DetailsFood229 svg {
+  cursor: pointer; /* Pointer cursor for interaction */
+  font-size: 1.2rem; /* Adjust icon size */
+  color: #777; /* Dimmed color for icons */
+}
+
+/* Status Button */
+.btn_status_orderitem {
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff; /* Default blue background for status button */
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+/* Different Status Colors */
+.btn_status_orderitem.pending {
+  background-color: #ffc107; /* Yellow for pending */
+}
+
+.btn_status_orderitem.preparing {
+  background-color: #28a745; /* Green for approved */
+}
+
+.btn_status_orderitem.cancelled {
+  background-color: #dc3545; /* Red for rejected */
+}
+
+/* Hover Effects */
+.btn_status_orderitem.preparing:hover {
+  background-color: #1dad3f; /* Darker blue on hover */
+}
+
+.btn_status_orderitem.pending:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.btn_status_orderitem.cancelled:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Total cost section */
+.text-quantity2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #030d91;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+/* Payment button */
+.btn_payment_forOrder {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.btn_payment_forOrder:hover {
+  background-color: #218838;
+}
+
+.btn_payment_forOrder:active {
+  background-color: #1e7e34;
+  transform: scale(1);
+}
+
+.btn_payment_forOrder:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.5);
+}
+
+/* Header for the menu */
+.itle_header_order {
+  text-align: center;
+  margin-top: 5.2rem;
+}
+
+/* Container for menu items */
+.contain-menu {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.contain-menu h2 {
+  text-align: center;
+}
+
+/* Grid layout for menu items */
+.box_itemFood_container22 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling within menu item */
+.box_itemFood_item22 img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Product name and price styling */
+.txt_boxDescription22 {
+  padding: 5px;
+  text-align: center;
+}
+
+.product-name-hp {
+  font-weight: bold;
+}
+
+.product-price-hp {
+  color: #000000;
+}
+
+.box_itemFood_item22 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.hoverAddcart_box {
+  transition: 300ms;
+  display: block;
+}
+
+/* Responsive layout for smartphones */
+@media (max-width: 768px) {
+  .container-menu {
+    grid-template-columns: 1fr; /* Switch to a single column layout */
+    margin: 3rem auto auto auto; /* Adjust margin for centering */
+  }
+
+  .title_header_order {
+    margin-top: 2rem; /* Increase top margin for spacing */
+    text-align: center; /* Center align the text */
+  }
+
+  .box_itemFood_container22 {
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 0.5rem; /* Adjust gap between grid items */
+  }
+}
+@media (max-width: 431px) {
+  .container-menu {
+    grid-template-columns: 1fr; /* Switch to a single column layout */
+    margin: 2rem auto auto auto; /* Adjust margin for centering */
+  }
+
+  .title_header_order {
+    margin-top: 1.5rem; /* Increase top margin for spacing */
+    text-align: center; /* Center align the text */
+  }
+
+  .box_itemFood_container22 {
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 1rem; /* Adjust gap between grid items */
+  }
+}

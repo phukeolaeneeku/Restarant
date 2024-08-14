@@ -1,0 +1,582 @@
+.container-dash {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    margin-top: 5rem;
+}
+
+.title_header_orderBox {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title_header_orderBox h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.box-dashboard {
+    margin-top: -15px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-dash1 {
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.box-text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -10px;
+}
+
+/* Additional Styles */
+.export_btn {
+    width: 120px;
+    height: 43px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.export_btn:hover {
+    
+    color: #db491c;
+    /* Change color on hover */
+}
+
+.export_btn img {
+    width: 20%;
+}
+
+.box-continer-in {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+/* Container for Order Box */
+.box-continer-order {
+    display: flex;
+    justify-content: center;
+    /* Center align the box */
+    align-items: center;
+    /* Center align the box */
+    background-color: #FFE2E5;
+    /* Background color for the order box */
+    border-radius: 10px;
+    /* Rounded corners for the order box */
+    padding: 30px;
+    /* Padding for the order box content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);/
+}
+
+/* Container for Text within Order Box */
+.box-text-order {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure child elements stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+.icon-test-order {
+    background-color: #737791; /* Example background color */
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%;
+}
+/* Camera Icon Styling */
+.icon-test-order svg {
+    color: #fff;
+    font-size: 20px;
+    /* Adjust icon size */
+}
+
+/* Heading Styles */
+.box-text-order h4 {
+    font-size: 18px;
+    color: #425166;
+    /* Darkened color for better readability */
+    margin-top: 10px;
+    /* Adjust margin top for spacing */
+}
+
+.box-text-order h3 {
+    font-size: 24px;
+    color: #333;
+    /* Darkened color for better readability */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+/* Paragraph Styles */
+.box-text-order p {
+    font-size: 14px;
+    /* Adjust font size */
+    color: #4079ED;
+    /* Adjusted color for better contrast */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+.box-continer-message {
+    background-color: #fff4de;
+    display: flex;
+    justify-content: center;
+    /* Center align the box */
+    align-items: center;
+    /* Center align the box */
+    border-radius: 10px;
+    /* Rounded corners for the order box */
+    padding: 30px;
+    /* Padding for the order box content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);/
+}
+
+/* Container for Text within Order Box */
+.box-text-message {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure child elements stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+.icon-test-message {
+    background-color: #FF947A; /* Example background color */
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%;
+}
+/* Camera Icon Styling */
+.icon-test-message svg {
+    color: #fff;
+    font-size: 20px;
+    /* Adjust icon size */
+}
+
+/* Heading Styles */
+.box-text-message h4 {
+    font-size: 18px;
+    color: #425166;
+    /* Darkened color for better readability */
+    margin-top: 10px;
+    /* Adjust margin top for spacing */
+}
+
+.box-text-message h3 {
+    font-size: 24px;
+    color: #333;
+    /* Darkened color for better readability */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+/* Paragraph Styles */
+.box-text-message p {
+    font-size: 14px;
+    /* Adjust font size */
+    color: #4079ED;
+    /* Adjusted color for better contrast */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+.box-continer-food {
+    background-color: #dcfce7;
+    display: flex;
+    justify-content: center;
+    /* Center align the box */
+    align-items: center;
+    /* Center align the box */
+    border-radius: 10px;
+    /* Rounded corners for the order box */
+    padding: 30px;
+    /* Padding for the order box content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);/
+}
+
+/* Container for Text within Order Box */
+.box-text-food {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure child elements stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+.icon-test-list {
+    background-color: #3CD856; /* Example background color */
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%;
+}
+/* Camera Icon Styling */
+.icon-test-list svg {
+    color: #fff;
+    font-size: 20px;
+    /* Adjust icon size */
+}
+
+/* Heading Styles */
+.box-text-food h4 {
+    font-size: 18px;
+    color: #425166;
+    /* Darkened color for better readability */
+    margin-top: 10px;
+    /* Adjust margin top for spacing */
+}
+
+.box-text-food h3 {
+    font-size: 24px;
+    color: #333;
+    /* Darkened color for better readability */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+/* Paragraph Styles */
+.box-text-food p {
+    font-size: 14px;
+    /* Adjust font size */
+    color: #4079ED;
+    /* Adjusted color for better contrast */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+.box-continer-review {
+    background-color: #f3e8ff;
+    display: flex;
+    justify-content: center;
+    /* Center align the box */
+    align-items: center;
+    /* Center align the box */
+    border-radius: 10px;
+    /* Rounded corners for the order box */
+    padding: 30px;
+    /* Padding for the order box content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);/
+}
+
+/* Container for Text within Order Box */
+.box-text-review {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure child elements stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+.icon-test-review {
+    background-color: #BF83FF; /* Example background color */
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%;
+}
+/* Camera Icon Styling */
+.icon-test-review svg {
+    color: #fff;
+    font-size: 20px;
+    /* Adjust icon size */
+}
+
+/* Heading Styles */
+.box-text-review h4 {
+    font-size: 18px;
+    color: #425166;
+    /* Darkened color for better readability */
+    margin-top: 10px;
+    /* Adjust margin top for spacing */
+}
+
+.box-text-review h3 {
+    font-size: 24px;
+    color: #333;
+    /* Darkened color for better readability */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+/* Paragraph Styles */
+.box-text-review p {
+    font-size: 14px;
+    /* Adjust font size */
+    color: #4079ED;
+    /* Adjusted color for better contrast */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+.box-dash2 {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.box-text-dash2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin: 20px 30px 0 30px;
+}
+
+.text-dash1 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.text-dash2 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#month {
+    width: 100%;
+    /* Set the width of the dropdown menu */
+    padding: 8px;
+    /* Add padding to the dropdown */
+    font-size: 15px;
+    /* Set the font size */
+    border: 1px solid #ccc;
+    /* Add a border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    background-color: #ffffff;
+    /* Set background color */
+    color: #333;
+    /* Set text color */
+
+
+    outline: none;
+}
+
+#month:hover,
+#month:focus {
+    border-color: #aaa;
+    /* Change border color on hover and focus */
+}
+/*  */
+.box-text2-dash2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin: 2px 35px 0 30px;
+}
+.text-dash-1 {
+    text-align: center;
+}
+.text-dash-1 p{
+    color: #000000;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.text-dash-1 h4{
+    font-size: 25px;
+}
+.text-dash-2 {
+    text-align: center;
+}
+.text-dash-2 p{
+    color: #000000;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.text-dash-2 h4{
+    font-size: 25px;
+}
+/*  */
+.box-continer-history {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #BED6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* Container for Text within Order Box */
+.box-text-history {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure child elements stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+.icon-test-history {
+    background-color: #0E64D2; /* Example background color */
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%;
+}
+/* Camera Icon Styling */
+.icon-test-history svg {
+    color: #fff;
+    font-size: 20px;
+    /* Adjust icon size */
+}
+
+/* Heading Styles */
+.box-text-history h4 {
+    font-size: 18px;
+    color: #425166;
+    /* Darkened color for better readability */
+    margin-top: 10px;
+    /* Adjust margin top for spacing */
+}
+
+.box-text-history h3 {
+    font-size: 24px;
+    color: #333;
+    /* Darkened color for better readability */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+
+/* Paragraph Styles */
+.box-text-history p {
+    font-size: 14px;
+    /* Adjust font size */
+    color: #4079ED;
+    /* Adjusted color for better contrast */
+    margin-top: 5px;
+    /* Adjust margin top for spacing */
+}
+/*  */
+.box-dash3 {
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5rem;
+    margin-top: 25px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Products and visit */
+
+.products-visit{
+    margin: -50px;
+}
+
+.products-visit .products .item_guopBox {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 2rem;
+}
+
+/* Products */
+.products-visit .products .items { 
+    display: grid;
+    grid-template-columns: 0fr 1.2fr 0.5fr 2.1fr 0fr;
+    border-bottom: 2px solid #eee; /* Add bottom border */
+}
+.products-visit .products .items h4 {
+    text-align: center;
+    color: #ABB2B9;
+}
+.products-visit .products .items .name {
+    
+    margin-left: 40px;
+    text-align: start;
+    color: #ABB2B9;
+}
+.products-visit .products .items span {
+    
+    text-align: center;
+    color: #000000;
+}
+.products-visit .products .items .p1 {
+    margin-left: 30px;
+    text-align: start;
+    color: #000000;
+}
+.products-visit .products .items:last-child {
+    border: none;
+    
+}
+.sales_persian {
+    padding: 3px 7px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.products-visit .products .items .sales_an1 {
+    
+    color: #0095FF;
+    border: 1px solid #0095FF;
+    background: var(--colors-light-blue-50, #F0F9FF);
+}
+
+.products-visit .products .items .sales_an2 {
+    color: #00E58F;
+    border: 1px solid #00E58F;
+    background: var(--colors-green-50, #F0FDF4);
+}
+
+.products-visit .products .items .sales_an3 {
+    color: #884DFF;
+    border: 1px solid #884DFF;
+    background: var(--supporting-color-violet-shade, #FBF1FF);
+}
+
+.products-visit .products .items .sales_an4 {
+    color: #FF8900;
+    border: 1px solid #FF8900;
+    background: var(--supporting-color-yellow-shade, #FEF6E6);
+}
+
+
+@media screen and (max-width: 1250px) {
+    .board{
+        padding:  1rem 3rem;
+        display: inline-block;
+        max-width: 80%;
+    }
+} 

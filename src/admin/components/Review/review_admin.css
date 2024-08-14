@@ -1,0 +1,166 @@
+.review_box_container22 {
+    padding: 2rem;
+  width: 84%;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 15%;
+  position: relative;
+  }
+  .rating-review-1 {
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  .rating-review-2 {
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  .title_header_orderBox {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .title_header_orderBox h3 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    margin-top: 2.5rem;
+  }
+  .text-box {
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0.1rem;
+  }
+  .star {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stars {
+    color: gold;
+  }
+  .rating {
+    margin-bottom: 10px;
+    display: grid;
+  
+    margin: 0 5%;
+  }
+  .rating span {
+    margin: 0.5rem 0;
+    font-size: 25px;
+  }
+  .rating p {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .back_review {
+    display: flex;
+    align-items: center;
+  }
+  .title_header_review h3 {
+    text-align: center;
+  }
+  .a {
+    width: 50%;
+  
+    margin-top: 0.5rem;
+    margin-right: 5%;
+  }
+  
+  .aaa {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-rate {
+    width: 100px;
+    text-align: left;
+  }
+  
+  .ab {
+    margin-top: 1rem;
+    display: flex;
+  }
+  .proressbar {
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 250px;
+    margin-right: 0.5rem;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .box_item_comment {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  .box-txt-comment {
+    text-align: left;
+    display: grid;
+    gap: 2px;
+  
+    margin-bottom: 15px;
+  }
+  .box-view {
+    margin-left: 50px;
+    margin-right: 15px;
+  }
+  .txtname_comment {
+    font-size: 18px;
+  }
+  .txtDate_comment {
+    display: flex;
+    font-size: 20px;
+  }
+  .txtDate_comment span {
+    padding-right: 5px;
+  }
+  .txtDate_comment p {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+  .txtDes_comment {
+    font-size: 13px;
+  }
+  
+  .btnViewMoew_comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    block-size: auto;
+    min-width: 30px;
+    border-radius: 100px;
+  }
+  
+ 

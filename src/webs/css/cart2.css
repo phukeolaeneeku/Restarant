@@ -1,0 +1,215 @@
+.cart_box_container_delivery {
+  width: 65%;
+  margin: 2rem auto auto auto;
+  background-color: #fff;
+}
+
+.box_groupaCart_item_delivery {
+  display: grid;
+  grid-template-columns: 1.5fr 1.2fr;
+  gap: 1.5rem;
+}
+
+.box_content_cart_delivery {
+  display: grid;
+  gap: 1rem;
+}
+.box_cart_item_head_delivery h4{
+  font-size: 18px;
+}
+/* Ensure alignment and spacing */
+.foodDetails_box_delivery,
+.boxCount_numfood_delivery {
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.count_footmenu_box_item_1_delivery{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.count_footmenu_box_item_2_delivery{
+  display: grid;
+  grid-template-columns: 1fr 0fr 0fr;
+  gap: 0.3rem;
+  
+}
+/* Apply flex layout to various elements */
+.foodDetails_box_delivery,
+.box_ofDetails_food_delivery,
+.boxCount_numfood_delivery,
+.count_footmenu_box_item {
+  display: flex;
+}
+
+/* Style for each food item */
+.foodDetails_box_delivery {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Adjust spacing between elements within the food box */
+.box_ofDetails_food_delivery {
+  gap: 2rem;
+}
+
+/* Center-align titles in the cart */
+.titleCart-delivery {
+  text-align: center;
+}
+.txt_ofDetails_food_delivery{
+  margin: 0 ;
+}
+/* Add padding to paragraphs within food details */
+.txt_ofDetails_food_delivery p {
+  margin: 5px 0;
+}
+
+/* Position icons relative to their parent container */
+.right_oflastDetailsFood_delivery {
+  margin: 0 30px;
+  position: relative;
+}
+
+/* Ensure consistent vertical alignment for icons and counts */
+.icon_DetailsFood_delivery,
+.boxCount_numfood_delivery {
+  display: flex;
+  align-items: center;
+}
+
+/* Add margin to the delete icon */
+.icon_DetailsFood_delivery {
+  margin-right: 0px; /* Adjust as needed */
+}
+
+.icon_DetailsFood_delivery {
+  border-radius: 5px;
+  color: #000000;
+
+  font-size: 20px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.box_cart_item_head_delivery {
+  padding: 10px;
+}
+
+.boxCount_numfood_delivery {
+  margin-top: 3rem;
+  gap: 1.5rem;
+}
+
+.countBtn_numberCount_delivery {
+  font-size: 20px;
+}
+
+.addIconCount_delivery,
+.deleteIconCount_delivery {
+  background-color: #ebeefb;
+  border-radius: 100px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.count_footmenu_box_delivery {
+  position: sticky;
+  width: 100%;
+  top: 30%;
+  height: 45vh;
+  margin: 3rem auto;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.count_footmenu_box_item_1_delivery,
+.count_footmenu_box_item_2_delivery {
+  border-bottom: #ddd 1px solid;
+  padding-bottom: 5px;
+}
+
+.count_footmenu_box_content_delivery {
+  padding: 30px;
+  display: grid;
+  gap: 2rem;
+}
+.btn-cart-delivery {
+  display: flex;
+  justify-content: space-between;
+
+}
+.btn_confirmCart-delivery {
+  text-decoration: none;
+  text-align: center;
+  background-color: #0e64d2;
+  color: #fff;
+  padding: 13px;
+  border-radius: 10px;
+  transition: 200ms;
+}
+.btn_Continues-delivery {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #0e64d2;
+  background-color: #ffffff;
+  color: #0e64d2;
+  padding: 13px;
+  border-radius: 10px;
+  transition: 200ms;
+}
+.btn_confirmCart-delivery:hover {
+  background-color: #0e5ac4;
+}
+
+@media screen and (max-width: 431px) {
+  .cart_box_container_delivery {
+    width: 100%;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  .box_groupaCart_item_delivery {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .box_content_cart_delivery {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    gap: 0;
+    margin-bottom: 4rem;
+  }
+
+  .box_ofDetails_food_delivery {
+    gap: 1rem;
+  }
+
+  .count_footmenu_box_delivery {
+    position: sticky;
+    height: auto;
+    bottom: 7%;
+    width: 100%;
+    margin: 0;
+    padding: 20px 20px 30px 20px;
+  }
+
+  .count_footmenu_box_content_delivery {
+    padding: 20px 10px;
+    padding: 0.7rem;
+  }
+
+  .count_footmenu_box_item {
+    padding-bottom: 10px;
+  }
+
+}

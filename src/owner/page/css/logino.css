@@ -1,0 +1,124 @@
+.box_container_logino {
+  width: 80%;
+  margin: 6rem auto auto auto;
+}
+
+.container-box-logino {
+  margin: auto;
+  width: 55%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  /* Ensure the container is positioned relative for absolute positioning */
+}
+
+.box-icon-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  transition: all 0.2s ease;
+}
+
+.box-icon-close:hover {
+  font-size: 31px;
+}
+
+.icon_closeReviwe {
+  font-size: 24px;
+  /* Adjust the size         as needed */
+}
+
+.contian-box-logino {
+  text-align: center;
+}
+
+.contian-box-logino h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contian-box-logino p {
+  font-size: 16px;
+  color: #666;
+  /* Change the color as needed */
+}
+
+.contian-box-logino {
+  display: grid;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.input_boxForm-login {
+  width: 100%;
+  display: grid;
+  gap: 0.5rem;
+  margin: 10px 0;
+}
+
+.input_boxForm-login label {
+  display: flex;
+}
+
+.input_boxForm-login input {
+  border: 1px #ddd solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.forgot_password2 {
+  text-align: end;
+}
+
+.findpassword2 {
+  text-align: center;
+  color: #e51e1e;
+}
+
+.dont_account {
+  text-align: end;
+}
+
+.signup2 {
+  color: #e51e1e;
+}
+
+.login_btn2 {
+  height: 58px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  text-align: center;
+  background-color: #0e64d2;
+  color: #fff;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: 200ms;
+}
+
+.login_btn2:hover {
+  background-color: #0c4b9b;
+}
+
+.login_google2 {
+  border: 1px #ddd solid;
+  padding: 13px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconnDetails_head {
+  justify-content: center;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.icon_close {
+  font-size: 30px;
+  margin: 0 100%;
+}

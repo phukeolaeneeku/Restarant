@@ -1,0 +1,135 @@
+.bill {
+  border: 1px solid #ccc;
+  margin: 15px 0;
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 10px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.image-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -40px;
+}
+
+.image-logo img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Makes the image circular */
+  cursor: pointer;
+}
+.text-box-bill h2 {
+  border-bottom: 1px solid #ccc; /* Add a bottom border for separation */
+}
+.Date-box {
+  justify-content: space-between;
+  display: flex;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+}
+.bill:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Slightly increased shadow on hover */
+}
+.bill h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.bill ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bill li {
+  margin-bottom: 10px;
+}
+
+.bill span {
+  margin-right: 10px;
+}
+.box-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc; /* Add a bottom border for separation */
+  padding: 10px 0; /* Add padding for spacing */
+}
+
+.box-menu span {
+  flex: 1; /* Distribute the space equally among the spans */
+}
+
+.box-menu span:first-child {
+  flex: 3; /* Make the first span wider */
+  margin-right: 10px; /* Add margin between the first and second span */
+}
+
+.box-menu span:last-child {
+  flex: 2; /* Make the last span narrower */
+  text-align: right; /* Align the content to the right */
+}
+
+.total-bill {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.total-bill h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+.checkbox-container {
+  margin-top: 20px;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.btn-cf-order {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.confirm-link {
+  display: inline-block;
+  text-align: center;
+  background-color: #007bff; /* Blue background */
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 25px; /* Rounder corners */
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.text-tq {
+  margin-top: 15px;
+  border-top: 1px solid #ccc; /* Add a bottom border for separation */
+  text-align: center;
+}
+.text-tq p {
+  font-size: 18px;
+}
+.text-tq span {
+  font-size: 13px;
+}

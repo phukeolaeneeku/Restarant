@@ -1,0 +1,41 @@
+.menubar_contentHeader {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #FFF;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+.box_content_header2 {
+    width: 80%;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+
+.menu_header_box2,
+.menu_header_box2 {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: right;
+    margin-left: 40%;
+}
+
+.active2 {
+    color: #0E64D2;
+}
+
+.linkTomenu2 {
+    font-size: 19px;
+}

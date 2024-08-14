@@ -1,0 +1,71 @@
+.continer_address {
+  width: 60%; /* Adjust width as needed */
+  margin: auto;
+  padding: 20px 0;
+  margin-top: 2rem;
+}
+
+.box_address {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input_box {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.input_box input {
+  width: calc(100% - 40px); /* Adjust width as needed */
+  padding: 15px; /* Adjust padding as needed */
+  border: 1px #ddd solid;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.input_box input:focus {
+  border-color: #0e64d2;
+  box-shadow: 0 0 3px rgba(14, 100, 210, 0.5);
+}
+.btn-con-address {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_confirm_address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e64d2;
+  color: #fff;
+  height: 6vh;
+  width: 25vh;
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+@media screen and (max-width: 431px) {
+  .continer_address {
+    width: 95%;
+  }
+
+  .box_address {
+    margin-bottom: 2rem;
+    padding: 15px;
+  }
+
+  .input_box input {
+    width: calc(100% - 30px);
+    padding: 12px;
+  }
+
+  .btn_confirm {
+    width: 100%;
+  }
+}

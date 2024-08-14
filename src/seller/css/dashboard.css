@@ -1,0 +1,95 @@
+.box_container_dashboard {
+    width: 500px;
+    height: 100vh;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.box_header_goback_dashboard {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.boxConntent {
+    min-height: 100vh;
+}
+
+.box_dashboard_ofFist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border: #ccc solid 1px;
+}
+
+.ofFist_item {
+    width: 100%;
+    height: 130px;
+    background-color: bisque;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.paymentTxt_p{
+    font-size: 13px;
+}
+
+.ofFist_item h4 {
+    color: #425166;
+}
+
+.ofFist_item h2 {
+    color: #151D48;
+}
+
+.ofFist_itemBox1 {
+    background-color: #FFE2E5;
+}
+
+.ofFist_itemBox2 {
+    background-color: #F3E8FF;
+}
+
+.ofFist_itemBox3 {
+    background-color: #FFF4DE;
+}
+
+.ofFist_itemBox4 {
+    background-color: #DCFCE7;
+}
+
+.viewMoeweOfDashboard {
+    color: #0E64D2;
+    font-size: 15px;
+}
+
+.box_dashboard_ofsceounb {
+    padding: 20px;
+}
+
+.input_of_txtAddproduct {
+    cursor: pointer;
+    border: #ccc 1px solid;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.selertetion {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxGrounpOFmonyong {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 1rem;
+}

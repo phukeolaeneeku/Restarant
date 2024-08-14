@@ -1,0 +1,69 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.box_container_login {
+  width: 500px;
+  height: 110vh;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F2F2F2;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.cover {
+  width: 95%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.input_boxForm {
+  display: grid;
+  gap: 1rem;
+}
+
+.cover,
+.input_boxForm {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.box_iconBack_homepage {
+  font-size: 30px;
+}
+
+.box_headerlogin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input_boxForm input {
+  border: 1px #ddd solid;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.findpassword {
+  color: #0E64D2;
+}
+
+.login_btn {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 30px;
+  width: 100%;
+  background-color: #0E64D2;
+}
